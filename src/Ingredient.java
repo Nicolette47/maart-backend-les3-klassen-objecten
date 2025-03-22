@@ -3,6 +3,9 @@ public class Ingredient {
     String unit;
     String name;
 
+    public Ingredient(){}
+
+
     public Ingredient (double amount, String unit, String name) {
         this.amount = amount;
         this.unit = unit;
@@ -33,3 +36,4 @@ public class Ingredient {
         this.name = name;
     }
 }
+
