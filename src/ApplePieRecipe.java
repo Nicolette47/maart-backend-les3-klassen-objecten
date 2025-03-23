@@ -14,6 +14,7 @@ public class ApplePieRecipe {
 
 
     public void printIngredients() {
+        System.out.println(" APPELTAART ");
         System.out.println("\nVoor dit recept heb je nodig:\n ");
         System.out.println(butter.getAmount() + " " + butter.getUnit() + " " + butter.getName());
         System.out.println(sugar.getAmount() + " " + sugar.getUnit() + " " + sugar.getName());

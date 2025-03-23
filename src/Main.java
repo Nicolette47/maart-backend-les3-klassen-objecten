@@ -4,8 +4,13 @@ public class Main {
         ApplePieRecipe applePie = new ApplePieRecipe();
 
         applePie.printIngredients();
-
         applePie.printSteps();
+
+
+        LeekCookies leekCookie = new LeekCookies();
+
+        leekCookie.printIngredientsList();
+        leekCookie.printLeekrecipe();
 
     }
 }
