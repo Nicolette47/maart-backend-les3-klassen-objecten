@@ -1,7 +1,16 @@
 public class Main {
     public static void main(String[] args) {
 
-        System.out.println("Hello, World!"
-        );
+        ApplePieRecipe applePie = new ApplePieRecipe();
+
+        applePie.printIngredients();
+        applePie.printSteps();
+
+
+        LeekCookies leekCookie = new LeekCookies();
+
+        leekCookie.printIngredientsList();
+        leekCookie.printLeekrecipe();
+
     }
 }
